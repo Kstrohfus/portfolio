@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/k-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: #000;
+}
+
+.text-container h1,
+.text-container p {
+    color: #000;
+}
+
+nav {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+}
+.shadow-font {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    margin-top: 50px; /* adjust according to your navbar height */
+    height: 2000px; /* example content height */
+}
+
+h1,
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-size: 5rem !important;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 2.5rem !important;
+    text-align: right;
+    margin-right: 20%;
+}
+
+h3 {
+    font-size: 2.5rem !important;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+img {
+    border: #f8f9f9 solid 30px;
+    border-radius: 10px;
+}
+
+.effect-image {
+    width: 300px;
+    height: 200px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.effect-image:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.effect-icon {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.effect-icon:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+.effect-text {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.effect-text:hover {
+    transform: translateY(-5px);
+}
+i,
+i:visited {
+    color: #fff;
+}
+
+i:hover {
+    color: #221ccc;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+}
